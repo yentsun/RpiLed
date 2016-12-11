@@ -4,10 +4,13 @@ import time
 GPIO.setmode(GPIO.BOARD)
 GPIO.setwarnings(False)
 GPIO.setup(12, GPIO.OUT)
+GPIO.setup(11, GPIO.OUT)
 while True:
     GPIO.output(12, True)
+    GPIO.output(11, True)
     print("ON")
     time.sleep(2)
+    GPIO.output(12, False)
     GPIO.output(12, False)
     print("OFF")
     time.sleep(2)
