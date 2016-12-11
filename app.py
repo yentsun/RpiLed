@@ -5,8 +5,8 @@ import time
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(11, GPIO.OUT)
 while True:
-    GPIO.output(11, True)
+    GPIO.output(2, True)
     time.sleep(2)
-    GPIO.output(11, False)
+    GPIO.output(2, False)
     time.sleep(2)
     print("Hello")
