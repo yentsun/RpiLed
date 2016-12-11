@@ -11,6 +11,6 @@ while True:
     print("ON")
     time.sleep(2)
     GPIO.output(12, False)
-    GPIO.output(12, False)
+    GPIO.output(11, False)
     print("OFF")
     time.sleep(2)
