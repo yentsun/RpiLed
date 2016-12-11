@@ -9,3 +9,4 @@ while True:
     time.sleep(2)
     GPIO.output(11, False)
     time.sleep(2)
+    print("Hello")
