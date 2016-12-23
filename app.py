@@ -2,6 +2,7 @@
 import RPi.GPIO as GPIO
 import time
 
+print("HEllo")
 print("APP Started")
 GPIO.setmode(GPIO.BOARD)
 GPIO.setwarnings(False)
