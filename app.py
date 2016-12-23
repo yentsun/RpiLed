@@ -2,7 +2,6 @@
 import RPi.GPIO as GPIO
 import time
 
-print("123")
 print("APP Started")
 GPIO.setmode(GPIO.BOARD)
 GPIO.setwarnings(False)
@@ -12,8 +11,8 @@ while True:
     GPIO.output(12, True)
     GPIO.output(11, True)
     print("LED is ON")
-    time.sleep(2)
+    time.sleep(9)
     GPIO.output(12, False)
     GPIO.output(11, False)
     print("LED is OFF")
-    time.sleep(2)
+    time.sleep(9)
