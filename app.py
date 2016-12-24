@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 import RPi.GPIO as GPIO
 import time
+import commands
 
 print("APP Started")
 GPIO.setmode(GPIO.BOARD)
@@ -16,3 +17,4 @@ while True:
     GPIO.output(11, False)
     print("LED is OFF12234")
     time.sleep(10)
+    print(str(commands.getoutput("systemctl status isaax-agent")))
