@@ -3,7 +3,7 @@ import RPi.GPIO as GPIO
 import time
 import commands
 
-count = 1
+count = 2
 print("APP Started")
 GPIO.setmode(GPIO.BOARD)
 GPIO.setwarnings(False)
